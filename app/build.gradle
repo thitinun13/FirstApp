@@ -8,7 +8,6 @@ android {
     dataBinding {
         enabled = true
     }
-
     defaultConfig {
         applicationId "com.example.firstapp"
         minSdkVersion 19
@@ -26,7 +25,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -43,5 +41,4 @@ dependencies {
     implementation"android.arch.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "android.arch.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "com.google.android.material:material:$supportlibVersion"
-
 }
